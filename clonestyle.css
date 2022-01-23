@@ -1,0 +1,424 @@
+body {}
+
+.three {
+  display: inline-flex;
+  margin: 50px;
+}
+
+.rd {
+  margin-left: 70px;
+}
+
+.vpb {
+
+  margin-left: 150px;
+}
+
+.sap {
+
+  margin-left: 150px;
+}
+
+.rd h3 {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+.rd h1 {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.vpb h1 {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.rd p {
+  font-size: 11px;
+}
+
+#para {
+  font-size: 50px;
+}
+
+.vpb h3 {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+.vpb p {
+  font-size: 11px;
+}
+
+.sap h3 {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+.sap p {
+  font-size: 11px;
+}
+
+.mid-sec {
+  background-image: url(https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhcHRvcHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mid-sec h1 {
+
+  margin-left: 10px;
+  margin-top: 50px;
+  position: relative;
+  font-size: 50px;
+  width: 400px;
+}
+
+.mid-sec p {
+  font-size: 20px;
+  width: 400px;
+}
+
+.content {
+  display: flexbox;
+  align-items: center;
+}
+
+.button1 {
+  font-size: 15px;
+  background-color: rgb(255, 115, 0);
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 100px;
+  width: 250px;
+  font-weight: bold;
+}
+
+.button1:hover,
+.button1:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+$colors: (.button1: #000000);
+
+#three {
+  display: inline-flex;
+  margin: 50px;
+}
+
+#rd {
+  margin-left: 70px;
+  width: 700px;
+}
+
+#vpb {
+
+  margin-left: 150px;
+}
+
+#rd h3 {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+#rd p {
+  font-size: 11px;
+}
+
+#vpb h3 {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+#vpb p {
+  font-size: 11px;
+}
+
+.graphy {
+  margin: 10px;
+}
+
+.g1 {
+  background-color: rgba(128, 128, 128, 0.37);
+  height: 30px;
+  width: 400px;
+
+}
+#p1 {
+  background-color: rgb(245, 70, 17);
+ 
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  animation-name: incre1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  -o-animation-fill-mode: forwards;
+}
+
+@keyframes incre1 {
+  from {
+    width: 100px;
+  }
+
+  to {
+    width: 380px;
+  }
+}
+
+.g2 {
+  background-color: rgba(128, 128, 128, 0.37);
+  height: 30px;
+  width: 400px;
+  margin-top: 30px;
+}
+
+#p2 {
+  background-color: rgb(245, 70, 17);
+  
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  animation-name: incre2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  -o-animation-fill-mode: forwards;
+}
+@keyframes incre2 {
+  from {
+    width: 100px;
+  }
+
+  to {
+    width: 340px;
+  }
+}
+
+.g3 {
+  background-color: rgba(128, 128, 128, 0.37);
+  height: 30px;
+  width: 400px;
+  margin-top: 30px;
+}
+
+#p3 {
+  background-color: rgb(245, 70, 17);
+ 
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  animation-name: incre3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  -o-animation-fill-mode: forwards;
+}
+@keyframes incre3 {
+  from {
+    width: 100px;
+  }
+
+  to {
+    width: 300px;
+  }
+}
+
+.g4 {
+  background-color: rgba(128, 128, 128, 0.37);
+  height: 30px;
+  width: 400px;
+  margin-top: 30px;
+}
+
+#p4 {
+  background-color: rgb(245, 70, 17);
+ 
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  animation-name: incre4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  -o-animation-fill-mode:forwards;
+}
+@keyframes incre4 {
+  from {
+    width: 100px;
+  }
+
+  to {
+    width: 280px;
+  }
+}
+#para{
+font-size: 20px;
+}
+.numbers {
+  display: inline-flex;
+  margin: 50px;
+  margin-left: 220px;
+}
+
+.n1 {
+  margin-left: 70px;
+}
+
+.n2 {
+
+  margin-left: 150px;
+}
+
+.n3 {
+
+  margin-left: 150px;
+}
+.n4 {
+
+margin-left: 150px;
+}
+
+.n1 h3 {
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+
+.n1 h1 {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.n2 h1 {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.n1 p {
+  font-size: 20px;
+}
+
+
+
+.n2 h3 {
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+
+.n2 p {
+  font-size:20px;
+}
+
+.n3 h3 {
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+
+.n3 p {
+  font-size: 20px;
+}
+.n4 h3 {
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+
+.n4 p {
+  font-size: 20px;
+}
+.get-koral{
+background: url(https://media.istockphoto.com/photos/nature-abstract-backgrounddark-leaves-texturemodern-art-can-be-used-picture-id1053170284?b=1&k=20&m=1053170284&s=170667a&w=0&h=DYhS_11Htbjqix7Ba-CecFVoHaaXOJVfLveHdMUESXs=);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+position: static;
+opacity: 1;
+}
+.get-koral h1{
+color: white;
+font-size: 30px;
+position: relative;
+margin-left: 450px;
+
+}
+.get-koral h3{
+color: white;
+font-size: 20px;
+position: relative;
+margin-left: 410px;
+
+}
+.get-koral button{
+color: white;
+font-size: 20px;
+position: relative;
+margin-left: 620px;
+background-color: rgba(0, 0, 0, 0.089);
+height: 40px;
+border-radius: 50px;
+border-color: white;
+margin-top: 10px;
+}
+.get-koral button:hover,
+.get-koral button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  background-color: rgba(255, 51, 0, 0.555);
+  border-color: rgb(255, 51, 0.555);
+}
+.cont{
+ margin-left: 50px;
+ justify-content: center;
+ align-items: center;
+}
+.nav-bar{
+background-color: rgba(0, 0, 0, 0.616);
+    }
+    .list{
+      display: flex;
+     
+    }
+    .nav-bar ul{
+      overflow: auto;
+      margin: 5px;
+      margin-top: 30px;
+    }
+    .nav-bar li{
+      float: left;
+      list-style: none;
+      margin: 13px 20px;
+     font-weight: bold;
+     color: aliceblue;
+    }
+    .list{
+      margin-left: 400px;
+    }
+    .heading{
+      font-size: 50px;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    .nav-bar a{
+      text-decoration: none;
+      color: white;
+    }
+    .nav-bar a:hover{
+      cursor: pointer;
+      color: orangered;
+  
+    }
